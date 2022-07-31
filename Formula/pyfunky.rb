@@ -3,8 +3,9 @@ class Pyfunky < Formula
 
   desc "Funky takes shell functions to the next level by making them easier to define, more flexible, and more interactive."
   homepage "https://github.com/bbugyi200/funky"
-  url "https://files.pythonhosted.org/packages/9a/53/add438dacb5f1da4f546a1907b1a310d7c719fc146169ade9ebd10c5bce0/pyfunky-3.5.5.tar.gz"
-  sha256 "644a7a7e6cb2d6d419d74d39effbf305fe1acbc2d9caafbb23dfcaee86b3a615"
+  # url "https://files.pythonhosted.org/packages/9a/53/add438dacb5f1da4f546a1907b1a310d7c719fc146169ade9ebd10c5bce0/pyfunky-3.5.5.tar.gz"
+  # sha256 "644a7a7e6cb2d6d419d74d39effbf305fe1acbc2d9caafbb23dfcaee86b3a615"
+  head "https://github.com/bbugyi200/funky.git", branch: "master"
 
   depends_on "python3"
 
